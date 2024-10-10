@@ -11,12 +11,7 @@ SRC_URI = "file://${EXAMPLE_APP_NAME}.desktop \
            file://launch_${EXAMPLE_APP_NAME}.sh \
 "
 
-# =========================================================================
-# Wayland/Weston QT Backend for STM32 MP1 & MP2 Devices
-# =========================================================================
-DIST_QT_PLATFORM = "wayland"
-
-PV = "1.0"
+PV = "2.0"
 
 inherit systemd
 
