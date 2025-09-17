@@ -9,9 +9,12 @@ SUMMARY = "OpenSTLinux Qt Framework image based on weston image"
 
 # Define a proper userfs for st-image-qt
 STM32MP_USERFS_IMAGE = "myir-image-full-userfs"
+BOOTDEVICE_LABELS = "emmc sdcard"
 
 # Define ROOTFS_MAXSIZE to 3GB
 IMAGE_ROOTFS_MAXSIZE = "3145728"
+
+BOOTDEVICE_LABELS = "emmc sdcard"
 
 # Define the size of userfs
 STM32MP_USERFS_SIZE = "307200"
