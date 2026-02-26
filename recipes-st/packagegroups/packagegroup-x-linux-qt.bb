@@ -25,7 +25,6 @@ PACKAGES = "\
     packagegroup-x-linux-qt-base   \
     packagegroup-x-linux-qt-extra  \
     packagegroup-x-linux-qt-demos  \
-    packagegroup-x-linux-qt-examples \
     ${ST_APPS}                     \
     "
 
@@ -35,7 +34,6 @@ RDEPENDS:packagegroup-x-linux-qt = "\
     packagegroup-x-linux-qt-base   \
     packagegroup-x-linux-qt-extra  \
     packagegroup-x-linux-qt-demos  \
-    packagegroup-x-linux-qt-examples \
     ${ST_APPS}                     \
     "
 
